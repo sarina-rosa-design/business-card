@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+    /* border:dashed;  */
+    }
+
+body {
+    background-image: url('assest/backgroundnew.svg');
+}
+/* the main container */
+
+.card{
+ width:254px;
+ height:441px;
+ margin: 3em auto;
+ overflow: hidden;
+ box-shadow: 2px 5px 15px 0px #00000098;
+ background-color:rgb(255, 255, 255);
+ border-radius: 25px;
+}
+
+.front-card{
+
+  background-image: url('assest/frontcardnew.png');
+  background-position:center;
+  background-size:cover;
+}
+ 
+.back-card {
+  background-image: url("assest/backcardnew.png");
+  background-position:center;
+  background-size:cover;
+}
+h1{
+  /* to left align text */
+  font-size: 28pt;
+  margin-top: 30%;
+  margin-left:8%;
+  font-family: 'Source Serif 4', sans-serif;
+  color: rgb(7, 47, 56);
+  font-weight: 600;
+}
+h2{
+  font-size: 15pt;
+  font-family: 'Source Serif 4', sans-serif;
+  margin-top: 0%;
+  margin-left:15%;
+  color: rgb(228, 240, 242);
+  font-weight: 450;
+}
+h3{
+  font-size: 11.4pt;
+  font-family: 'Source Serif 4', sans-serif;
+  margin-top: 2;
+  margin-left:21.8%;
+  color: rgb(29, 59, 67);
+  font-weight: 600;
+}
+h4{
+  font-size: 11pt;
+  font-family: 'Source Serif 4', sans-serif;
+  margin-top: 5%;
+  margin-left:20%;
+}
+.icon-container{
+  /* controls the width of overall container */
+  width:14%;
+  margin-top:12%;
+  /* what enables the use of css gride */
+  margin-left:4%;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+svg{
+  fill:rgb(29, 59, 67);
+  /* width:100%; */
+  /* height:auto; */
+  /* margin: 0 auto */
+}
+
+svg:hover{
+  fill:rgb(228, 240, 242);
+  /* animation:pulse; referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  .card{
+  width:50%;
+  width:254px;
+  height:441px;
+}
+}
+/* a different version of styling that is activated on just desktop */
+@media only screen and (min-width: 800px) {
+  body {
+    background-color: blueviolet;
+  }
+  .card{
+  width:30%;
+  width:254px;
+  height:441px;
+}
+}
