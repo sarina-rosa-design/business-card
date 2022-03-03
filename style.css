@@ -6,7 +6,7 @@
     }
 
 body {
-    background-image: url('assest/backgroundnew.svg');
+    background-image: url('assest/newbackgroundnew.svg');
 }
 /* the main container */
 
@@ -28,7 +28,7 @@ body {
 }
  
 .back-card {
-  background-image: url("assest/backcardnew.png");
+  background-image: url("assest/Untitled_Artwork.png");
   background-position:center;
   background-size:cover;
 }
@@ -53,7 +53,7 @@ h3{
   font-size: 11.4pt;
   font-family: 'Source Serif 4', sans-serif;
   margin-top: 2;
-  margin-left:21.8%;
+  margin-left:21.5%;
   color: rgb(29, 59, 67);
   font-weight: 600;
 }
@@ -85,7 +85,7 @@ svg:hover{
   /* animation:pulse; referring directly to the animation's @keyframe declaration */
   animation-duration: 2s; /* don't forget to set a duration! */
 }
-@media only screen and (min-width: 600px) {
+/* @media only screen and (min-width: 600px) { */
   body {
     background-color: lightblue;
   }
@@ -94,9 +94,9 @@ svg:hover{
   width:254px;
   height:441px;
 }
-}
+
 /* a different version of styling that is activated on just desktop */
-@media only screen and (min-width: 800px) {
+/* @media only screen and (min-width: 800px) { */
   body {
     background-color: blueviolet;
   }
@@ -104,5 +104,4 @@ svg:hover{
   width:30%;
   width:254px;
   height:441px;
-}
 }
